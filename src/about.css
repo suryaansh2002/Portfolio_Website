@@ -47,7 +47,8 @@
         font-size: 30px;
     }
     } 
-    @media(max-width: 460px){
-      .dp{
+    @media(max-width: 540px){
+      .about{
+          font-size: 22px;
       }
       } 

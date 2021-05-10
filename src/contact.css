@@ -76,3 +76,14 @@ label{
 #adjust3 span{
     top:-50px;
 }
+@media(max-width: 540px){
+    .row{
+        font-size: 22px;
+    }
+    input{
+        width: 75%;
+    }
+    #msg{
+        width: 95%;
+    }
+    } 

@@ -71,12 +71,20 @@ button{
 #adjust span{
     top:-50px;
 }
+.first, .second{
+    margin-left: 3%;
+}
 
 @media(max-width: 680px){
   #card{
       margin-left: 20%;
   }
-  } 
+  }
+  @media(max-width: 540px){
+    #card{
+        margin-left: 15%;
+    }
+    } 
   @media(max-width: 460px){
     #card{
         margin-left: 10%;

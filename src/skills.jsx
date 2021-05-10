@@ -66,6 +66,7 @@ class Skills extends Component{
         </div>
 
         <div id="card">
+        
         <img src={bootstrap} className="logo"></img>
         </div>
         <div id="card">

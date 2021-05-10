@@ -46,7 +46,7 @@ class Contact extends Component{
 
             <div className="row">
              <div className="col-lg-6">  
-            <label>Name:</label>
+            <label>Name:    </label>
             <input type="text" name="name" placeholder="(required)" required/>
             </div>
 
