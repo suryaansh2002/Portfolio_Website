@@ -1,0 +1,84 @@
+.main{
+    background-color: #37383b;
+    width: 100%;
+    overflow:auto;
+    overflow-x:hidden;
+}
+.heading{
+    color:azure;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color:#c1c758;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#card{
+    width: 300px;
+    height: 200px;
+    background-color:#12120f;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+
+}
+#card:hover{
+transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.logo{
+    width: 180px;
+    height: 150px;
+    margin-top:15px;
+    border-radius: 10px;
+}
+#plt{
+    width:220px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.more{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 30px;
+    border-bottom: 2px solid white;
+    }
+.row{
+margin-bottom: 15px;
+border: none;
+
+}
+button{
+    color:#37383b;
+}
+#skills{
+    padding-top: 90px;
+    margin-top: -90px;
+}
+#adjust{
+    position: relative;
+}
+#adjust span{
+    top:-50px;
+}
+
+@media(max-width: 680px){
+  #card{
+      margin-left: 20%;
+  }
+  } 
+  @media(max-width: 460px){
+    #card{
+        margin-left: 10%;
+    }
+    } 

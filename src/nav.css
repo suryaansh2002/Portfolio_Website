@@ -1,0 +1,35 @@
+.profile{
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+nav{
+    background-color: #37383b;
+    margin-top: -10px;
+
+    
+}
+#head{
+    z-index: 1;
+    position:fixed;
+    top:0px;
+    width:100%;
+}
+.nav-link{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+li .nav-link{
+    color: #eaebe4;
+}
+li:hover .nav-link{
+    font-size: 22px;
+    background-color: #eaebe4;
+    border-radius: 10px;
+}
+li:hover .nav-link{
+    color: #37383b;
+}

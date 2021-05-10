@@ -1,0 +1,78 @@
+.main{
+    background-color: #37383b;
+    width: 100%;
+    overflow:auto;
+    overflow-x:hidden;
+}
+.heading{
+    color:azure;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color:#c1c758;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.row{
+    font-size: 30px;
+    color: #eaebe4;
+}
+
+
+input{
+    background-color: #37383b;
+    border:none;
+    border-bottom: 2px solid #c1c758;
+    float: left;
+    margin-right: 100px;
+    width: 50%;
+    padding-left:20px;
+    color: #eaebe4;
+    outline: none;
+
+}
+input::placeholder{
+    color: #adaca8;
+    font-size: 25px;
+}
+
+label{
+    float: left;
+    margin-top: 5px;
+}
+#msg{
+    width: 85%;
+}
+.sub-row{
+    text-align: right;
+}
+#sub{
+    width: 100px;
+}
+.other{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.handles{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.icon{
+    width:50px;
+    height: 50px;
+    margin: 10px
+}
+#contacts{
+    padding-top: 90px;
+    margin-top: -90px;
+}
+#adjust3{
+    position: relative;
+}
+#adjust3 span{
+    top:-50px;
+}
