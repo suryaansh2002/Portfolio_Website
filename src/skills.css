@@ -33,6 +33,8 @@
 transform: scale(1.05);
  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
+
+
 .logo{
     width: 180px;
     height: 150px;
@@ -74,19 +76,21 @@ button{
 .first, .second{
     margin-left: 3%;
 }
-
-@media(max-width: 680px){
+@media(max-width: 1300px){
+    #card{
+        margin-left: calc(18% - 150px);
+    }
+    
+      } 
+@media(max-width: 1090px){
+    #card{
+        margin-left: calc(25% - 150px);
+    }
+    
+      } 
+@media(max-width: 698px){
   #card{
-      margin-left: 20%;
+      margin-left: calc(50% - 150px);
   }
-  }
-  @media(max-width: 540px){
-    #card{
-        margin-left: 15%;
-    }
-    } 
-  @media(max-width: 460px){
-    #card{
-        margin-left: 10%;
-    }
+  
     } 

@@ -15,18 +15,7 @@ import gmail from './images/gmail.png';
 class Contact extends Component{
 
   render(){
-    init("user_toeZZWFpvQZAQWE5cXocy");
-    function sendEmail(e) {
-        e.preventDefault();
-    
-        emailjs.sendForm('gmail', 'template_tirl6lo', e.target, 'user_toeZZWFpvQZAQWE5cXocy')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset()
-      }
+
     
     return(
     <div className="main" >
@@ -38,6 +27,9 @@ class Contact extends Component{
             <input type="hidden" name="_subject" value="New Connect From Website"/>
             <input type="hidden" name="_captcha" value="false"/>
             <input type="hidden" name="_template" value="box"/>
+            <input type="hidden" name="_next" value="https://suryaanshrathinam.netlify.app/thankyou.html"/>
+
+
 
 
 
@@ -89,7 +81,7 @@ class Contact extends Component{
         <a href="https://www.linkedin.com/in/suryaansh-rathinam-33a86b1b6/" target="_blank">
             <img src={linkedin}  className="icon"/>
         </a>
-        <a href="mailto: suryaansh2002@gmail.com" target="_blank">
+        <a href="mailto: suryaansh28@gmail.com" target="_blank">
             <img src={gmail}  className="icon"/>
         </a>
 

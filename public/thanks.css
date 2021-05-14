@@ -1,0 +1,42 @@
+body{
+    background-color: #37383b;
+
+}
+#image{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+}
+#text{
+    color:#eaebe4;
+    font-size: 30px;
+    margin: 0px 60px;
+    padding: 20px;
+    text-align: center;
+}
+#return{
+    padding-left: 50px;
+}
+.btn{
+    padding:15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+@media(max-width: 540px){
+img{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+#text{
+    font-size: 20px;
+    margin: 0px 20px;
+}
+.btn{
+    padding:8px;
+    margin-left:20px ;
+}    
+} 

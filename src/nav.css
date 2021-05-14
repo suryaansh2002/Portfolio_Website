@@ -33,3 +33,8 @@ li:hover .nav-link{
 li:hover .nav-link{
     color: #37383b;
 }
+@media(max-width: 993px){
+    .navbar{
+        padding-left: calc(50% - 35px);
+    }
+} 
