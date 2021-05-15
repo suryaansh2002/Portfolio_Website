@@ -6,12 +6,16 @@ import './skills.css';
 import html from './images/html.png'
 import css from './images/css.png'
 import js from './images/js.png'
-import react from './images/react.jpg'
+import react from './images/react.png'
 
 import bootstrap from './images/bootstrap.png'
 import sass from './images/sass.png'
 import node from './images/node.png'
+import mongo from './images/mongodb.png'
+
 import php from './images/php.png'
+import express from './images/express.jpg'
+import redux from './images/redux.png'
 
 import mysql from './images/mysql.png'
 import git from './images/git.png'
@@ -76,8 +80,10 @@ class Skills extends Component{
         <img src={node} className="logo"></img>
         </div>
         <div id="card">
-        <img src={php} className="logo"></img>
+        <img src={mongo} className="logo"></img>
         </div>
+        
+        
     </span>
     {!this.state.isHidden && <Second />}
 
@@ -93,7 +99,16 @@ class Skills extends Component{
 }
 const Second = () => (
 
-<div className="second">    
+<div className="second"> 
+<div id="card">
+<img src={php} className="logo"></img>
+</div>   
+<div id="card">
+<img src={express} className="logo"></img>
+</div>
+<div id="card">
+<img src={redux} className="logo"></img>
+</div>
 <div id="card">
 <img src={mysql} className="logo"></img>
 </div>

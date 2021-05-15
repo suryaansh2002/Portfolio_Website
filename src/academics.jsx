@@ -8,7 +8,7 @@ class Academics extends Component{
   render(){
     return(
     <div className="main">
-        <div className="heading" id="adjustad"><span id="academics"></span>Academics </div>
+        <div className="heading" id="adjustad"><span id="academics"></span>Acadmics </div>
         <div className="row academic">
             <div id="card2">
                  12th Boards:<br />
@@ -23,7 +23,7 @@ class Academics extends Component{
                  1590/1600
             </div>
             <div id="card2">
-                 IELTS:<br></br>git 
+                 IELTS:<br></br>
                 8/9
             </div>
  
