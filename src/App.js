@@ -7,6 +7,7 @@ import Academics from './academics.jsx'
 import Contact from './contact.jsx'
 
 
+
 function App() {
   return (
     <div>
