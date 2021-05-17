@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## Created a portfolio website for myself using react. Hosted it at https://suryaanshrathinam.netlify.app/ . Please do check it out and any inputs regarding the same would be appreciated. Looking forward to connecting with y'all.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
