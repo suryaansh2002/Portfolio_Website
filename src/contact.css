@@ -30,16 +30,18 @@ input{
     padding-left:20px;
     color: #eaebe4;
     outline: none;
+    font-size: 22px;
 
 }
 input::placeholder{
     color: #adaca8;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 label{
     float: left;
-    margin-top: 5px;
+    margin-top: 8px;
+    font-size: 22px;
 }
 #msg{
     width: 85%;
@@ -76,14 +78,17 @@ label{
 #adjust3 span{
     top:-50px;
 }
+
+
+.row{
+    font-size: 22px;
+}
+label{
+    margin-right: 15px;
+}
+
 @media(max-width: 540px){
-    .row{
-        font-size: 22px;
-    }
-    input{
-        width: 75%;
-    }
-    #msg{
-        width: 95%;
-    }
+input{
+    width: 75%;
+} 
     } 

@@ -12,7 +12,7 @@
 }
 .about{
     color:#eaebe4;
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'Merriweather', serif;
     margin: 20px;
     margin-bottom: 50px;
@@ -37,18 +37,29 @@
 
 }
 
+.typing{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #c1c758;
+}
+
 @media(max-width: 680px){
     .dp{
         margin-left: 25%;
         width: 50%;
-        height: 90%;
+        height: 70%;
+    }
+    .typing{
+        font-size: 28px;
     }
     .about{
-        font-size: 30px;
+        font-size: 28px;
     }
     } 
     @media(max-width: 540px){
       .about{
-          font-size: 22px;
+          font-size: 20px;
       }
       } 
+

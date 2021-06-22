@@ -24,14 +24,13 @@ nav{
 
 li .nav-link{
     color: #eaebe4;
+    position: relative;
 }
 li:hover .nav-link{
-    font-size: 22px;
-    background-color: #eaebe4;
-    border-radius: 10px;
-}
-li:hover .nav-link{
-    color: #37383b;
+    transform: perspective(500px) translateZ(120px);
+    text-decoration: underline;
+    color: #eaebe4;
+
 }
 @media(max-width: 993px){
     .navbar{

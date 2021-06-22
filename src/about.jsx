@@ -2,8 +2,11 @@ import './App.css';
 import React,{ Component } from 'react';
 import dp from './images/profile.jpeg'
 import './about.css'
+import Typewriter from 'typewriter-effect';
+
 
 class About extends Component{
+
 
   render(){
     return(
@@ -13,16 +16,29 @@ class About extends Component{
         <div className="about">
         Hi There! <br></br>
         I'm <span className="name">Suryaansh Rathinam</span>.<br></br>
-        A Computer Science undergrad at Manipal Institute of Technology. I'm always
-         eager to learn new stuff and work on projects.<br />
-        Love going on long drives, running, vibing to music, and binge watching shows and movies.
-        Also, yeah cricket is the love of my life!
+        A Computer Science undergrad at Manipal Institute of Technology. Continously working on new stuff to 
+        develop my skill-set. <br></br>
+          Looking forward to working on projects, collaborating, and learning with anyone with similar interests. <br></br> 
+          Do reach out to me if you feel you've got something that would interest me.
+        <br></br>
         </div>
         </div>
         <div className="col-lg-4">
         <img src={dp} alt="dp" className="dp w3-animate-zoom"></img>
         </div>
+    <div className="typing">
+    <Typewriter
+  options={{
+    strings: ['WEB-DEVELOPER', 'ML ENTHUSIAST','COMPETITVE PROGRAMMER', 'DATA SCIENCE ENTHUSIAST'],
+    autoStart: true,
+    loop: true,
+
+  }}
+/>
+
     </div>
+    </div>
+
     </div>
       
     )

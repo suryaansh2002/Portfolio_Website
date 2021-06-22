@@ -17,6 +17,9 @@
 #card2{
     width: 350px;
     height: 200px;
+    width: 280px;
+    height: 200px;
+
     background-color:#12120f;
     color:#eaebe4;
     font-size: 30px;
@@ -24,12 +27,12 @@
     border-radius: 10px;
     border: 1px solid white;
     padding: 15px;
-    margin: 10px;
     text-align: center;
-    float: left;
     padding-top:50px;
 
     margin: 20px auto;
+
+    
 
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
@@ -53,3 +56,5 @@ transform: scale(1.05);
     padding-top: 90px;
     margin-top: -90px;
 }
+
+

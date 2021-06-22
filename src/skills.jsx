@@ -2,6 +2,12 @@ import './App.css';
 import React,{ Component } from 'react';
 import './skills.css';
 //import $ from 'jquery';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faStarHalf } from '@fortawesome/free-solid-svg-icons'
+
+
+
 
 import html from './images/html.png'
 import css from './images/css.png'
@@ -19,6 +25,7 @@ import redux from './images/redux.png'
 
 import mysql from './images/mysql.png'
 import git from './images/git.png'
+import matlab from './images/matlab.png'
 import c from './images/c.png'
 import cpp from './images/c++.png'
 
@@ -53,37 +60,107 @@ class Skills extends Component{
    
     return(
     <div className="main" >
-    <div className="heading" id="adjust"><span id="skills"></span>My Skills</div>
+    <div className="heading" id="adjust"><span id="skills"></span>Skills 
+</div>
     <div className="row">
     <span className='first'>
-        <div id="card">
-        <img src={html} className="logo"></img>
-        </div>
-        <div id="card">
-        <img src={css} className="logo"></img>
-        </div>
-        <div id="card">
-        <img src={js} className="logo"></img>
-        </div>
-        <div id="card">
-        <img src={react} className="logo"></img>
-        </div>
+       
+        
+  <div class="card-container">
+	<div class="front">
+  <img src={html} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star"/>
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={css} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  </div>
+</div>
+  <div class="card-container">
+  
+	<div class="front">
+  <img src={js} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  </div>
+</div>
+  <div class="card-container">
+	<div class="front">
+  <img src={react} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star"/>
+  </div>
+</div>
+  <div class="card-container">
+	<div class="front">
+  <img src={bootstrap} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star"/>
+  </div>
+</div>
 
-        <div id="card">
-        
-        <img src={bootstrap} className="logo"></img>
-        </div>
-        <div id="card">
-        <img src={sass} className="logo"></img>
-        </div>
-        <div id="card">
-        <img src={node} className="logo"></img>
-        </div>
-        <div id="card">
-        <img src={mongo} className="logo"></img>
-        </div>
-        
-        
+<div class="card-container">
+	<div class="front">
+  <img src={sass} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star"/>
+  </div>
+</div>
+
+
+<div class="card-container">
+	<div class="front">
+  <img src={node} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={mongo} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  </div>
+</div>
+
+
+
     </span>
     {!this.state.isHidden && <Second />}
 
@@ -99,54 +176,208 @@ class Skills extends Component{
 }
 const Second = () => (
 
+
 <div className="second"> 
-<div id="card">
-<img src={php} className="logo"></img>
-</div>   
-<div id="card">
-<img src={express} className="logo"></img>
+
+
+<div class="card-container">
+	<div class="front">
+  <img src={php} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star"/>
+  </div>
 </div>
-<div id="card">
-<img src={redux} className="logo"></img>
+<div class="card-container">
+	<div class="front">
+  <img src={express} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  </div>
 </div>
-<div id="card">
-<img src={mysql} className="logo"></img>
+<div class="card-container">
+	<div class="front">
+  <img src={redux} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star" />
+  </div>
 </div>
-<div id="card">
-<img src={git} className="logo"></img>
+<div class="card-container">
+	<div class="front">
+  <img src={mysql} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+
+  </div>
 </div>
-<div id="card">
-<img src={c} className="logo"></img>
+<div class="card-container">
+	<div class="front">
+  <img src={git} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+
+  </div>
 </div>
-<div id="card">
-<img src={cpp} className="logo"></img>
+<div class="card-container">
+	<div class="front">
+  <img src={matlab} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star" />
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={c} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={cpp} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star" />
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={python} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star" />
+
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={numpy} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={pandas} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star" />
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={matplotlib} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={seaborn} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star" />
+
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={scikit} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={selenium} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star" />
+
+
+  </div>
+</div>
+<div class="card-container">
+	<div class="front">
+  <img src={flutter} className="logo"></img>
+  </div>
+	<div class="back">
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStar} className="star" />
+  <FontAwesomeIcon icon={faStarHalf} className="star" />
+
+  </div>
 </div>
 
-<div id="card">
-<img src={python} className="logo"></img>
-</div>
-<div id="card">
-<img src={numpy} className="logo"></img>
-</div>
-<div id="card">
-<img src={pandas} className="logo"></img>
-</div>
-<div id="card">
-<img src={matplotlib} className="logo" id="plt"></img>
-</div>
 
-<div id="card">
-<img src={seaborn} className="logo" id="plt"></img>
-</div>
-<div id="card">
-<img src={scikit} className="logo"></img>
-</div>
-<div id="card">
-<img src={selenium} className="logo"></img>
-</div>
-<div id="card">
-<img src={flutter} className="logo"></img>
-</div>
+
+
 </div> 
 )
 

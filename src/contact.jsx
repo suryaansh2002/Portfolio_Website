@@ -23,11 +23,12 @@ class Contact extends Component{
 
 
 
-        <form action="https://formsubmit.co/suryaansh28@gmail.com" method="POST">
+        <form action="https://formsubmit.co/suryaansh28@gmail.com" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_subject" value="New Connect From Website"/>
-            <input type="hidden" name="_captcha" value="false"/>
             <input type="hidden" name="_template" value="box"/>
             <input type="hidden" name="_next" value="https://suryaanshrathinam.netlify.app/thankyou.html"/>
+            <input type="hidden" name="_captcha" value="false"/>
+
 
 
 
@@ -41,7 +42,6 @@ class Contact extends Component{
             <label>Name:    </label>
             <input type="text" name="name" placeholder="(required)" required/>
             </div>
-
             <div className="col-lg-6" id="">
             <label>Email Id:</label>
             <input type="email" name="email" placeholder="(required)" required/>
